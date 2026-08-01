@@ -1,4 +1,4 @@
-# ☁️ Projet : Serveur pfSense sur Ubuntu (VM VirtualBox)
+#  Projet : Serveur pfSense sur Ubuntu (VM VirtualBox)
 
 Ce projet explique comment installer et configurer un pare-feu **pfSense** dans une machine virtuelle **VirtualBox**.
 
@@ -6,7 +6,7 @@ Tu apprendras à installer pfSense, configurer les interfaces réseau, mettre en
 
 ---
 
-# 🎯 Objectifs du projet
+#  Objectifs du projet
 
 - Installer pfSense dans VirtualBox
 - Configurer les interfaces WAN et LAN
@@ -18,7 +18,7 @@ Tu apprendras à installer pfSense, configurer les interfaces réseau, mettre en
 
 ---
 
-# 💻 1. Téléchargement de pfSense
+#  1. Téléchargement de pfSense
 
 Télécharge l'image ISO depuis le site officiel :
 
@@ -26,7 +26,7 @@ https://www.pfsense.org/download/
 
 ---
 
-# 🖥️ 2. Création de la machine virtuelle
+#  2. Création de la machine virtuelle
 
 Créer une nouvelle machine virtuelle.
 
@@ -45,7 +45,7 @@ Configurer deux cartes réseau :
 
 ---
 
-# 💿 3. Installation de pfSense
+#  3. Installation de pfSense
 
 - Démarrer la VM
 - Choisir Install
@@ -55,7 +55,7 @@ Configurer deux cartes réseau :
 
 ---
 
-# 🌐 4. Configuration des interfaces
+#  4. Configuration des interfaces
 
 Attribuer les interfaces :
 
@@ -70,7 +70,7 @@ Exemple :
 
 ---
 
-# 🌍 5. Accès à l'interface Web
+#  5. Accès à l'interface Web
 
 Depuis une machine cliente :
 
@@ -88,7 +88,7 @@ pfsense
 
 ---
 
-# ⚙️ 6. Configuration initiale
+#  6. Configuration initiale
 
 Configurer :
 
@@ -99,7 +99,7 @@ Configurer :
 
 ---
 
-# 📡 7. Configuration du DHCP
+#  7. Configuration du DHCP
 
 Activer le serveur DHCP sur le réseau LAN.
 
@@ -113,7 +113,7 @@ Exemple :
 
 ---
 
-# 🔥 8. Configuration des règles du pare-feu
+#  8. Configuration des règles du pare-feu
 
 Créer les règles nécessaires :
 
@@ -123,7 +123,7 @@ Créer les règles nécessaires :
 
 ---
 
-# 🌍 9. Vérification du NAT
+#  9. Vérification du NAT
 
 Vérifier que le mode NAT est configuré en :
 
@@ -131,7 +131,7 @@ Automatic Outbound NAT
 
 ---
 
-# 🧪 10. Tests
+#  10. Tests
 
 Tester :
 
@@ -141,7 +141,7 @@ Tester :
 
 ---
 
-# 📚 Ressources
+#  Ressources
 
 - Documentation officielle pfSense
 - Documentation VirtualBox
